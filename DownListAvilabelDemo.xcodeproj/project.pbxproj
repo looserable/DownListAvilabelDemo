@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5250C0F71CBCCB1E00246155 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5250C0F61CBCCB1E00246155 /* main.m */; };
+		5250C0FA1CBCCB1E00246155 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5250C0F91CBCCB1E00246155 /* AppDelegate.m */; };
+		5250C0FD1CBCCB1E00246155 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5250C0FC1CBCCB1E00246155 /* ViewController.m */; };
+		5250C1001CBCCB1E00246155 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5250C0FE1CBCCB1E00246155 /* Main.storyboard */; };
+		5250C1021CBCCB1E00246155 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5250C1011CBCCB1E00246155 /* Assets.xcassets */; };
+		5250C1051CBCCB1E00246155 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5250C1031CBCCB1E00246155 /* LaunchScreen.storyboard */; };
+		5250C1101CBCCB1E00246155 /* DownListAvilabelDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5250C10F1CBCCB1E00246155 /* DownListAvilabelDemoTests.m */; };
+		5250C11B1CBCCB1E00246155 /* DownListAvilabelDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5250C11A1CBCCB1E00246155 /* DownListAvilabelDemoUITests.m */; };
+		5250C12A1CBCCCEE00246155 /* ChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5250C1291CBCCCEE00246155 /* ChildViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5250C10C1CBCCB1E00246155 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5250C0EA1CBCCB1E00246155 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5250C0F11CBCCB1E00246155;
+			remoteInfo = DownListAvilabelDemo;
+		};
+		5250C1171CBCCB1E00246155 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5250C0EA1CBCCB1E00246155 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5250C0F11CBCCB1E00246155;
+			remoteInfo = DownListAvilabelDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5250C0F21CBCCB1E00246155 /* DownListAvilabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DownListAvilabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5250C0F61CBCCB1E00246155 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5250C0F81CBCCB1E00246155 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5250C0F91CBCCB1E00246155 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5250C0FB1CBCCB1E00246155 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5250C0FC1CBCCB1E00246155 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5250C0FF1CBCCB1E00246155 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5250C1011CBCCB1E00246155 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5250C1041CBCCB1E00246155 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5250C1061CBCCB1E00246155 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5250C10B1CBCCB1E00246155 /* DownListAvilabelDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DownListAvilabelDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5250C10F1CBCCB1E00246155 /* DownListAvilabelDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DownListAvilabelDemoTests.m; sourceTree = "<group>"; };
+		5250C1111CBCCB1E00246155 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5250C1161CBCCB1E00246155 /* DownListAvilabelDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DownListAvilabelDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5250C11A1CBCCB1E00246155 /* DownListAvilabelDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DownListAvilabelDemoUITests.m; sourceTree = "<group>"; };
+		5250C11C1CBCCB1E00246155 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5250C1281CBCCCEE00246155 /* ChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildViewController.h; sourceTree = "<group>"; };
+		5250C1291CBCCCEE00246155 /* ChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5250C0EF1CBCCB1E00246155 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5250C1081CBCCB1E00246155 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5250C1131CBCCB1E00246155 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5250C0E91CBCCB1D00246155 = {
+			isa = PBXGroup;
+			children = (
+				5250C0F41CBCCB1E00246155 /* DownListAvilabelDemo */,
+				5250C10E1CBCCB1E00246155 /* DownListAvilabelDemoTests */,
+				5250C1191CBCCB1E00246155 /* DownListAvilabelDemoUITests */,
+				5250C0F31CBCCB1E00246155 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5250C0F31CBCCB1E00246155 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5250C0F21CBCCB1E00246155 /* DownListAvilabelDemo.app */,
+				5250C10B1CBCCB1E00246155 /* DownListAvilabelDemoTests.xctest */,
+				5250C1161CBCCB1E00246155 /* DownListAvilabelDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5250C0F41CBCCB1E00246155 /* DownListAvilabelDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5250C0F81CBCCB1E00246155 /* AppDelegate.h */,
+				5250C0F91CBCCB1E00246155 /* AppDelegate.m */,
+				5250C0FB1CBCCB1E00246155 /* ViewController.h */,
+				5250C0FC1CBCCB1E00246155 /* ViewController.m */,
+				5250C1281CBCCCEE00246155 /* ChildViewController.h */,
+				5250C1291CBCCCEE00246155 /* ChildViewController.m */,
+				5250C0FE1CBCCB1E00246155 /* Main.storyboard */,
+				5250C1011CBCCB1E00246155 /* Assets.xcassets */,
+				5250C1031CBCCB1E00246155 /* LaunchScreen.storyboard */,
+				5250C1061CBCCB1E00246155 /* Info.plist */,
+				5250C0F51CBCCB1E00246155 /* Supporting Files */,
+			);
+			path = DownListAvilabelDemo;
+			sourceTree = "<group>";
+		};
+		5250C0F51CBCCB1E00246155 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5250C0F61CBCCB1E00246155 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5250C10E1CBCCB1E00246155 /* DownListAvilabelDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5250C10F1CBCCB1E00246155 /* DownListAvilabelDemoTests.m */,
+				5250C1111CBCCB1E00246155 /* Info.plist */,
+			);
+			path = DownListAvilabelDemoTests;
+			sourceTree = "<group>";
+		};
+		5250C1191CBCCB1E00246155 /* DownListAvilabelDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5250C11A1CBCCB1E00246155 /* DownListAvilabelDemoUITests.m */,
+				5250C11C1CBCCB1E00246155 /* Info.plist */,
+			);
+			path = DownListAvilabelDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5250C0F11CBCCB1E00246155 /* DownListAvilabelDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5250C11F1CBCCB1E00246155 /* Build configuration list for PBXNativeTarget "DownListAvilabelDemo" */;
+			buildPhases = (
+				5250C0EE1CBCCB1E00246155 /* Sources */,
+				5250C0EF1CBCCB1E00246155 /* Frameworks */,
+				5250C0F01CBCCB1E00246155 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DownListAvilabelDemo;
+			productName = DownListAvilabelDemo;
+			productReference = 5250C0F21CBCCB1E00246155 /* DownListAvilabelDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5250C10A1CBCCB1E00246155 /* DownListAvilabelDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5250C1221CBCCB1E00246155 /* Build configuration list for PBXNativeTarget "DownListAvilabelDemoTests" */;
+			buildPhases = (
+				5250C1071CBCCB1E00246155 /* Sources */,
+				5250C1081CBCCB1E00246155 /* Frameworks */,
+				5250C1091CBCCB1E00246155 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5250C10D1CBCCB1E00246155 /* PBXTargetDependency */,
+			);
+			name = DownListAvilabelDemoTests;
+			productName = DownListAvilabelDemoTests;
+			productReference = 5250C10B1CBCCB1E00246155 /* DownListAvilabelDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5250C1151CBCCB1E00246155 /* DownListAvilabelDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5250C1251CBCCB1E00246155 /* Build configuration list for PBXNativeTarget "DownListAvilabelDemoUITests" */;
+			buildPhases = (
+				5250C1121CBCCB1E00246155 /* Sources */,
+				5250C1131CBCCB1E00246155 /* Frameworks */,
+				5250C1141CBCCB1E00246155 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5250C1181CBCCB1E00246155 /* PBXTargetDependency */,
+			);
+			name = DownListAvilabelDemoUITests;
+			productName = DownListAvilabelDemoUITests;
+			productReference = 5250C1161CBCCB1E00246155 /* DownListAvilabelDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5250C0EA1CBCCB1E00246155 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = jhon;
+				TargetAttributes = {
+					5250C0F11CBCCB1E00246155 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					5250C10A1CBCCB1E00246155 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 5250C0F11CBCCB1E00246155;
+					};
+					5250C1151CBCCB1E00246155 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 5250C0F11CBCCB1E00246155;
+					};
+				};
+			};
+			buildConfigurationList = 5250C0ED1CBCCB1E00246155 /* Build configuration list for PBXProject "DownListAvilabelDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5250C0E91CBCCB1D00246155;
+			productRefGroup = 5250C0F31CBCCB1E00246155 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5250C0F11CBCCB1E00246155 /* DownListAvilabelDemo */,
+				5250C10A1CBCCB1E00246155 /* DownListAvilabelDemoTests */,
+				5250C1151CBCCB1E00246155 /* DownListAvilabelDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5250C0F01CBCCB1E00246155 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5250C1051CBCCB1E00246155 /* LaunchScreen.storyboard in Resources */,
+				5250C1021CBCCB1E00246155 /* Assets.xcassets in Resources */,
+				5250C1001CBCCB1E00246155 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5250C1091CBCCB1E00246155 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5250C1141CBCCB1E00246155 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5250C0EE1CBCCB1E00246155 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5250C0FD1CBCCB1E00246155 /* ViewController.m in Sources */,
+				5250C0FA1CBCCB1E00246155 /* AppDelegate.m in Sources */,
+				5250C0F71CBCCB1E00246155 /* main.m in Sources */,
+				5250C12A1CBCCCEE00246155 /* ChildViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5250C1071CBCCB1E00246155 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5250C1101CBCCB1E00246155 /* DownListAvilabelDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5250C1121CBCCB1E00246155 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5250C11B1CBCCB1E00246155 /* DownListAvilabelDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5250C10D1CBCCB1E00246155 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5250C0F11CBCCB1E00246155 /* DownListAvilabelDemo */;
+			targetProxy = 5250C10C1CBCCB1E00246155 /* PBXContainerItemProxy */;
+		};
+		5250C1181CBCCB1E00246155 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5250C0F11CBCCB1E00246155 /* DownListAvilabelDemo */;
+			targetProxy = 5250C1171CBCCB1E00246155 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5250C0FE1CBCCB1E00246155 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5250C0FF1CBCCB1E00246155 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5250C1031CBCCB1E00246155 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5250C1041CBCCB1E00246155 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5250C11D1CBCCB1E00246155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5250C11E1CBCCB1E00246155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5250C1201CBCCB1E00246155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DownListAvilabelDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lixiaotao.DownListAvilabelDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5250C1211CBCCB1E00246155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DownListAvilabelDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lixiaotao.DownListAvilabelDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5250C1231CBCCB1E00246155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DownListAvilabelDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lixiaotao.DownListAvilabelDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DownListAvilabelDemo.app/DownListAvilabelDemo";
+			};
+			name = Debug;
+		};
+		5250C1241CBCCB1E00246155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DownListAvilabelDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lixiaotao.DownListAvilabelDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DownListAvilabelDemo.app/DownListAvilabelDemo";
+			};
+			name = Release;
+		};
+		5250C1261CBCCB1E00246155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DownListAvilabelDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lixiaotao.DownListAvilabelDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DownListAvilabelDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5250C1271CBCCB1E00246155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DownListAvilabelDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lixiaotao.DownListAvilabelDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DownListAvilabelDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5250C0ED1CBCCB1E00246155 /* Build configuration list for PBXProject "DownListAvilabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5250C11D1CBCCB1E00246155 /* Debug */,
+				5250C11E1CBCCB1E00246155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5250C11F1CBCCB1E00246155 /* Build configuration list for PBXNativeTarget "DownListAvilabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5250C1201CBCCB1E00246155 /* Debug */,
+				5250C1211CBCCB1E00246155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5250C1221CBCCB1E00246155 /* Build configuration list for PBXNativeTarget "DownListAvilabelDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5250C1231CBCCB1E00246155 /* Debug */,
+				5250C1241CBCCB1E00246155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5250C1251CBCCB1E00246155 /* Build configuration list for PBXNativeTarget "DownListAvilabelDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5250C1261CBCCB1E00246155 /* Debug */,
+				5250C1271CBCCB1E00246155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5250C0EA1CBCCB1E00246155 /* Project object */;
+}
